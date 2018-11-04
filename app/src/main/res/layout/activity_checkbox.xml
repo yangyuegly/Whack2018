@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newstress"
+    tools:context="com.example.yueyang.afinal.Page1">
+
+    <Button
+        android:id="@+id/checkBox3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="156dp"
+        android:onClick="check3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/checkBox4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="196dp"
+        android:onClick="check4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="208dp" />
+
+    <Button
+        android:id="@+id/checkBox5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="68dp"
+        android:onClick="check5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <Button
+        android:id="@+id/checkBox6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:onClick="check6"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/checkBox7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="60dp"
+        android:onClick="check7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <Button
+        android:id="@+id/checkBox8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:onClick="check8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+    <Button
+        android:id="@+id/checkBox9"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="check9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox7"
+        app:layout_constraintVertical_bias="0.161" />
+</android.support.constraint.ConstraintLayout>
+
